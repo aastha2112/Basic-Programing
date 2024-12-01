@@ -18,3 +18,14 @@ function isPrime(num) {
 console.log(isPrime(3)); //true
 console.log(isPrime(30)); //false
 console.log(isPrime(23)); //true
+
+function evenOdd(num) {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(evenOdd(30)); //true
+console.log(evenOdd(27)); //false
